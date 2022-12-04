@@ -9,9 +9,12 @@ function github() {
 }
 
 function toDashboard() {
-    if (user === "lockncode01" && pass === "user1234") {
+    x = document.getElementById("user");
+    y = document.getElementById("pass");
+
+    if (x === "lockncode" && y === "user1234") {
         window.open("dashboard.html", "_self");
-    } else 
+    } else {
         alert("Please enter valid information");
-        return;
-}
+        return;}
+ }
