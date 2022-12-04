@@ -9,5 +9,9 @@ function github() {
 }
 
 function toDashboard() {
-    window.open("./dashboard.html", "_self");
+    if (user === "lockncode01" && pass === "user1234") {
+        window.open("dashboard.html", "_self");
+    } else 
+        alert("Please enter valid information");
+        return;
 }
