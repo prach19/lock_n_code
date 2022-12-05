@@ -67,7 +67,7 @@ function receiveItems() {
             //adding the icons
             newItemsHTML += `<li data-itemindex="${i}" ${status}>
                 <span class="item">${itemsArray[i].item}</span> 
-                <div><span class="heart"> <img src="./assets/heart.png" alt= "love" width = 30px height = 30px> </span></div>
+                <div><span class="heart"> <img src="/public/assets/heart.png" alt= "heart" width = 30px height = 30px> </span></div>
                 </li>`;
         }
         itemsList.innerHTML = newItemsHTML;
