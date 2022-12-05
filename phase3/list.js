@@ -3,7 +3,22 @@ function templates() {
     document.querySelector('.new-item').style.display = "block";
 }
 
+//past entries
 
+function pastentry1() {
+    document.getElementById("templates").style.display = "block";
+    var textBox = document.getElementById("words");
+    textBox.value = "";
+    textBox.placeholder = "I had two classes and one midterm. The midterm was fairly easy. I also got mcdonald's for dinner"
+}
+function pastentry2() {
+    document.getElementById("templates").style.display = "block";
+    var textBox = document.getElementById("words");
+    textBox.value = "";
+    textBox.placeholder = "highs: I got a 96% in my math homework. lows: I broke a cup."
+}
+
+// entries
 
 function any() {
     document.getElementById("templates").style.display = "block";
